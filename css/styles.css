@@ -28,6 +28,7 @@ body{
     color: #333;
     line-height: 1;
     background-color: #fff;
+    min-width: 980px;
 }
 *{
     -webkit-box-sizing: border-box;
