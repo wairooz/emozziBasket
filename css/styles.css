@@ -23,11 +23,329 @@ html, body{
     height: 100%;
 }
 body{
-    font-family: 'PFDinDisplayPro-Black';
+    font-family: 'PFDinTextPro-Light', Calibri, sans-serif;
+    font-size: 15px;
+    color: #333;
+    line-height: 1;
+    background-color: #fff;
 }
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+a{
+    color: #6aaed6;
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active, a.active{
+    text-decoration: none;
+}
+ul.hor{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+ul.hor li{
+    display: inline-block;
+    margin: 0 6px;
+}
+.icon_sprite{
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.icon_sprite.basket{
+    display: inline-block;
+    width: 20px;
+    height: 19px;
+    background-position: -1px -1px;
+}
+.icon_sprite.sign_in{
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    background-position: -22px -1px;
+}
+.icon_sprite.adviser{
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+    background-position: -40px -1px;
+}
+.icon_sprite.search{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-position: -63px -1px;
+}
 
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='password'],
+.select_wrap{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    outline: none;
+    height: 37px;
+    padding: 0 5px 0 15px;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+}
+::-webkit-input-placeholder {color:#ccc;}
+input:-moz-placeholder {color:#ccc; opacity:1;}
+::-moz-placeholder {color:#ccc; opacity:1;}
+:-ms-input-placeholder {color:#ccc;}
+input[type='submit']{
+    outline: none;
+}
+input[type='text']:focus,
+input[type='number']:focus,
+input[type='email']:focus,
+input[type='password']:focus,
+.select_wrap:focus{
+    border-color: #cce5f2;
+    box-shadow: 0 0 4px #cce5f2;
+}
+.select_wrap{
+    overflow: hidden;
+    padding: 0;
+}
+select{
+    border: none;
+    height: 100%;
+    width: 115%;
+    outline: none;
+    padding: 0 5px 0 12px;
+}
+.button{
+    font-family: 'PFDinDisplayPro-Black', Calibri, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 14px 25px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    outline: none;
+}
+.button.pink{
+    background-color: #b74380;
+}
+.button.black{
+    background-color: #373532;
+}
+
+/*header*/
+.primary_nav{
+    background-color: #f9f9f9;
+}
+.primary_nav nav{
+    width: 980px;
+    margin: 0 auto;
+}
+ul.main_menu{
+    display: block;
+    float: left;
+    margin: 20px 0 19px 40px;
+}
+ul.main_menu a{
+    color: #333;
+    text-decoration: none;
+}
+.basket_header_block{
+    display: block;
+    float: right;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #dedede;
+    text-decoration: none;
+    color: #999;
+    padding: 6px 9px 7px 10px;
+    margin: 9px 0 9px 28px;
+}
+.basket_header_block:hover{
+    text-decoration: none;
+}
+.basket_header_block .icon_sprite.basket{
+    float: left;
+    margin: 0 10px 0 0;
+}
+.basket_header_block span{
+    line-height: 1.4;
+}
+.basket_header_block .basket_header_number{
+    float: right;
+    padding: 6px 8px 4px 6px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    background-color: #cc3333;
+    color: #fff;
+    font-size: 8px;
+    margin: 2px 0 0 8px;
+}
+.cabinet_header_block{
+    display: block;
+    float: right;
+    color: #999;
+    height: 19px;
+    margin: 18px 0 17px;
+}
+.cabinet_header_block .icon_sprite.sign_in{
+    margin: 0 0 -3px 10px;
+}
+.secondary_nav{
+    box-shadow: 0 1px 7px #eaeaea;
+}
+.secondary_nav nav{
+    width: 980px;
+    margin: 0 auto;
+}
+.tel_header_block{
+    font-size: 24px;
+    float: right;
+    margin: 38px 0 34px 40px;
+}
+.adviser_header_block{
+    display: block;
+    float: right;
+    color: #999;
+    margin: 38px 0 38px 36px;
+}
+.adviser_header_block .icon_sprite.adviser{
+    margin: 0 0 -3px 17px;
+}
+.search_header_block{
+    float: right;
+    width: 397px;
+    position: relative;
+    margin: 29px 0 28px;
+}
+.search_header_block input[type="text"]{
+    height: 39px;
+    border-color: #f0f0f0;
+    padding-left: 45px;
+}
+.search_header_block input[type="submit"]{
+    border: none;
+    padding: 0;
+    position: absolute;
+    top: 11px;
+    left: 12px;
+}
+/*end header*/
+
+/*content*/
+.form_body{
+    width: 980px;
+    min-height: 401px;
+    margin: 0 auto;
+    padding: 0 0 14px;
+}
+.content_nav{
+    padding: 30px 0 30px 88px;
+    margin: 24px 0 0;
+}
+ul.basket_menu{
+    margin: 0 0 0 0;
+}
+ul.basket_menu li{
+    margin: 0 18px;
+}
+.steps_block{
+    padding: 10px 0 30px 106px;
+}
+ul.steps li{
+    margin: 0 0 0 -5px;
+    border: 2px solid #f1f1f1;
+}
+ul.steps li:first-child{
+    margin: 0;
+}
+ul.steps a{
+    display: block;
+    color: #e6e6e6;
+    text-decoration: none;
+    padding: 0 32px 0 24px;
+}
+ul.steps .step_number{
+    border: 2px solid #e6e6e6;
+    padding: 0 5px 1px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    margin: 0 12px 0 0;
+}
+ul.steps .step_title{
+    line-height: 3;
+    font-family: 'PFDinDisplayPro-Black', Calibri, sans-serif;
+}
+ul.steps li.active{
+    border-color: #b74380;
+    background-color: #b74380;
+}
+ul.steps li.active a{
+    color: #fff;
+}
+ul.steps li.active .step_number{
+    border-color: #fff;
+}
+h1.title{
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px 0 10px 106px;
+}
+h3.info{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #ccc;
+    margin: 0;
+    padding: 10px 0 10px 106px;
+    line-height: 1.4;
+}
+.form_elements{
+    padding: 30px 0;
+}
+.field_group{
+    margin-bottom: 22px;
+}
+.form_elements .field_name{
+    min-width: 205px;
+    margin: 0 44px 0 0;
+    float: left;
+    text-align: right;
+    line-height: 2.2;
+}
+.form_elements .input_wrap{
+    min-width: 280px;
+    float: left;
+}
+
+.form_actions{
+    background-color: #fbfcfc;
+}
+.form_actions .buttons_container{
+    width: 980px;
+    margin: 0 auto;
+    padding: 37px 0 29px;
+}
+.buttons_container.change_password .button.pink{
+    margin: 0 15px 0 249px;
+}
+.buttons_container.change_password_final .button.black{
+    margin: 0 0 0 106px;
+}
+/*end content*/
