@@ -363,12 +363,13 @@ h3.info{
 
 /*history*/
 .order_history_block{
-    padding: 10px 0 14px;
+    padding: 20px 0 14px;
 }
 .order_item{
     border-bottom: 1px solid #e9e9e9;
     font-size: 17px;
     text-transform: uppercase;
+    padding: 30px 0 26px 0;
 }
 .order_item .left_block{
     color: #ccc;
@@ -382,8 +383,16 @@ h3.info{
 .order_item .right_block{
     width: 120px;
     float: right;
+    text-align: right;
+}
+.order_item .order_date{
+    margin-bottom: 6px;
 }
 .order_item .order_number_block{
     font-size: 15px;
+    text-transform: none;
+}
+.order_item .order_good{
+    margin-bottom: 17px;
 }
 /*end history*/
