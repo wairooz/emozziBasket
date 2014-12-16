@@ -5,6 +5,7 @@
     <title>Emozzii shopping</title>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/select2.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
@@ -48,7 +49,7 @@
     </header>
     <section class="content">
         <form action="">
-            <div class="form_body">
+            <div class="form_header">
                 <nav class="content_nav">
                     <ul class="basket_menu hor">
                         <li><a href="">Корзина</a></li>
@@ -73,6 +74,8 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div class="form_body">
                 <div class="form_elements">
                     <div class="field_group">
                         <label>
@@ -113,12 +116,50 @@
                     <div class="field_group">
                         <label>
                             <div class="field_name">Способ доставки</div>
+                            <div class="select_wrap select_gray ">
+                                <select name="" id="">
+                                    <option value="third_party">Третьему лицу</option>
+                                </select>
+                            </div>
+                            <div class="clearfix"></div>
+                        </label>
+                    </div>
+                    <div class="field_group">
+                        <label>
+                            <div class="field_name">Адрес получателя</div>
+                            <div class="address_wrap">
+                                <input type="text" value="" />
+                            </div>
+                            <div class="clearfix"></div>
+                        </label>
+                    </div>
+                    <div class="field_group">
+                        <label>
+                            <div class="field_name">Телефон получателя</div>
                             <div class="input_wrap">
-                                <div class="select_wrap" tabindex="-1">
-                                    <select name="" id="">
-                                        <option value="third_party">Третьему лицу</option>
-                                    </select>
-                                </div>
+                                <input type="text" value="" />
+                            </div>
+                            <div class="clearfix"></div>
+                        </label>
+                    </div>
+                    <div class="field_group">
+                        <label>
+                            <div class="field_name">Имя получателя</div>
+                            <div class="input_wrap">
+                                <input type="text" value="" />
+                            </div>
+                            <div class="clearfix"></div>
+                        </label>
+                    </div>
+                    <div class="field_group">
+                        <label>
+                            <div class="field_name">Способ доставки</div>
+                            <div class="select_wrap select_gray ">
+                                <select name="" id="">
+                                    <option value="visa">VISA</option>
+                                    <option value="maestro">MAESTRO</option>
+                                    <option value="master_card">MASTER CARD</option>
+                                </select>
                             </div>
                             <div class="clearfix"></div>
                         </label>
@@ -126,12 +167,20 @@
                 </div>
             </div>
             <div class="form_actions">
-                <div class="buttons_container change_password">
-                    <input type="submit" value="Сменить пароль" class="button pink" />
-                    <button class="button black">Назад к данным</button>
+                <div class="buttons_container order_submit">
+                    <div class="to_pay_block">
+                        <span>Итого к оплате </span>
+                        <span class="bold sum_to_pay">789</span>
+                        <span class="bold">грн</span>
+                    </div>
+                    <input type="submit" value="Оформить заказ" class="button pink" />
+                    <div class="clearfix"></div>
                 </div>
             </div>
         </form>
     </section>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/select2.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
