@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Emozzii shopping</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/select2.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+    <header>
+        <div class="primary_nav">
+            <nav>
+                <ul class="main_menu hor">
+                    <li><a href="">Главная</a></li>
+                    <li><a href="">Как это работает?</a></li>
+                    <li><a href="">Оплата и доставка</a></li>
+                    <li><a href="">Активировать эмоцию</a></li>
+                </ul>
+                <a href="" class="basket_header_block">
+                    <div class="icon_sprite basket"></div>
+                    <span>Корзина</span>
+                    <div class="basket_header_number">3</div>
+                </a>
+                <a href="" class="cabinet_header_block">
+                    <span>Личный кабинет</span>
+                    <div class="icon_sprite sign_in"></div>
+                </a>
+                <div class="clearfix"></div>
+            </nav>
+        </div>
+        <div class="secondary_nav">
+            <nav>
+                <div class="tel_header_block">0 800 505 449</div>
+                <a href="" class="adviser_header_block">
+                    <span>Онлайн-консультант</span>
+                    <div class="icon_sprite adviser"></div>
+                </a>
+                <div class="search_header_block">
+                    <form action="">
+                        <input type="text" placeholder="Начните искать эмоцию" />
+                        <input type="submit" class="icon_sprite search" value="" />
+                    </form>
+                </div>
+                <div class="clearfix"></div>
+            </nav>
+        </div>
+    </header>
+    <section class="content">
+        <form action="">
+            <div class="form_header">
+                <nav class="content_nav">
+                    <ul class="basket_menu hor">
+                        <li><a href="">Корзина</a></li>
+                        <li><a href="">Отложенные товары</a></li>
+                        <li><a href="">Личная информация</a></li>
+                        <li><a href="">История заказов</a></li>
+                    </ul>
+                </nav>
+                <div class="steps_block">
+                    <ul class="steps hor">
+                        <li class="active">
+                            <a href="">
+                                <span class="step_number">1</span>
+                                <span class="step_title">Ваш заказ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="step_number">2</span>
+                                <span class="step_title">Подтверждение</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form_body">
+                <div class="goods_list_container">
+                    <div class="goods_item">
+                        <div class="close_container">
+                            <a href="" class="icon_sprite close"></a>
+                        </div>
+                        <div class="left_block">
+                            <div class="goods_info">
+                                <div class="good_name">
+                                    набор emozzi simply red ( 94 эмоции )
+                                </div>
+                                <div class="one_good_coast">
+                                    <span class="one_good_coast_sum">129</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="goods_quantity_block">
+                                    <a href="">
+                                        <span class="goods_quantity">2</span>
+                                        <span>шт</span>
+                                    </a>
+                                    <div class="goods_quantity_toggler">
+                                        <div class="toggler more_toggler">+</div>
+                                        <div class="toggler less_toggler">-</div>
+                                    </div>
+                                </div>
+                                <div class="goods_total_coast">
+                                    <span class="goods_total_coast_sum">129</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--add or remove class "open"-->
+                            <div class="goods_edit_block open">
+                                <div class="goods_edit_block_closed">
+                                    <a href="">Редактировать</a>
+                                </div>
+                                <div class="goods_edit_block_opened">
+                                    <div class="goods_edit_block_opened_title">РЕДАКТИРОВАНИЕ</div>
+                                    <div class="goods_edit_list_block">
+                                        <div class="goods_edit_list_item">
+                                            <a class="good_edit_remove icon_sprite remove_small" href=""></a>
+                                            <span class="good_edit_name">Картинг для одного</span>
+                                        </div>
+                                        <div class="goods_edit_list_item">
+                                            <a class="good_edit_remove icon_sprite remove_small" href=""></a>
+                                            <span class="good_edit_name">Ворошиловский стрелок</span>
+                                        </div>
+                                    </div>
+                                    <a href="" class="goods_edit_save">Сохранить</a>
+                                </div>
+                            </div>
+                            <!--add or remove class "open"-->
+                            <div class="goods_gifts_block open">
+                                <div class="goods_gifts_button">
+                                    Смотреть подарки
+                                </div>
+                                <div class="goods_gifts_block_closed"></div>
+                                <div class="goods_gifts_block_opened">
+                                    <div class="goods_gifts_list">
+                                        <div class="goods_gifts_item">
+                                            БИЛЕТ НА ДВОИХ В ОДЕССА-КИНО
+                                        </div>
+                                        <div class="goods_gifts_item">
+                                            ПРИГЛАСИТЕЛЬНЫЕ В ФОРСАЖ
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right_block">
+                            <!--classes: "" or "open" or "done"-->
+                            <div class="goods_pack_block open">
+                                <div class="goods_pack_block_closed">
+                                    <div class="good_pack_button_to_open">
+                                        Упаковка
+                                    </div>
+                                </div>
+                                <div class="goods_pack_block_opened">
+                                    <div class="pack_view_block">
+                                        <div class="good_pack_button_to_close">
+                                            Упаковка
+                                        </div>
+                                        <div class="goods_pack_slider_block">
+                                            <div class="goods_pack_slider_arrow left icon_sprite arrow_left"></div>
+                                            <div class="goods_pack_slider_view_container">
+                                                <div class="goods_pack_slider_img_wrap">
+                                                    <img src="img/gift.jpg" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div class="goods_pack_slider_arrow right icon_sprite arrow_right"></div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="goods_pack_price_block">
+                                            <span class="goods_pack_price">50</span>
+                                            <span> грн</span>
+                                        </div>
+                                        <button class="button pink goods_pack_select_button">Выбрать</button>
+                                    </div>
+                                </div>
+                                <div class="goods_pack_block_done">
+                                    <div class="good_pack_button_done">
+                                        Упакован
+                                    </div>
+                                    <div class="good_pack_button_to_cancel">
+                                        Отменить упаковку
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="goods_item">
+                        <div class="close_container">
+                            <a href="" class="icon_sprite close"></a>
+                        </div>
+                        <div class="left_block">
+                            <div class="goods_info">
+                                <div class="good_name">
+                                    набор emozzi simply red ( 94 эмоции )
+                                </div>
+                                <div class="one_good_coast">
+                                    <span class="one_good_coast_sum">129</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="goods_quantity_block">
+                                    <a href="">
+                                        <span class="goods_quantity">2</span>
+                                        <span>шт</span>
+                                    </a>
+                                    <div class="goods_quantity_toggler">
+                                        <div class="toggler more_toggler">+</div>
+                                        <div class="toggler less_toggler">-</div>
+                                    </div>
+                                </div>
+                                <div class="goods_total_coast">
+                                    <span class="goods_total_coast_sum">258</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--add or remove class "open"-->
+                            <div class="goods_gifts_block">
+                                <div class="goods_gifts_button">
+                                    Смотреть подарки
+                                </div>
+                                <div class="goods_gifts_block_closed"></div>
+                                <div class="goods_gifts_block_opened">
+                                    <div class="goods_gifts_list">
+                                        <div class="goods_gifts_item">
+                                            БИЛЕТ НА ДВОИХ В ОДЕССА-КИНО
+                                        </div>
+                                        <div class="goods_gifts_item">
+                                            ПРИГЛАСИТЕЛЬНЫЕ В ФОРСАЖ
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right_block">
+                            <!--classes: "" or "open" or "done"-->
+                            <div class="goods_pack_block">
+                                <div class="goods_pack_block_closed">
+                                    <div class="good_pack_button_to_open">
+                                        Упаковка
+                                    </div>
+                                </div>
+                                <div class="goods_pack_block_opened">
+                                    <div class="pack_view_block">
+                                        <div class="good_pack_button_to_close">
+                                            Упаковка
+                                        </div>
+                                        <div class="goods_pack_slider_block">
+                                            <div class="goods_pack_slider_arrow left icon_sprite arrow_left"></div>
+                                            <div class="goods_pack_slider_view_container">
+                                                <div class="goods_pack_slider_img_wrap">
+                                                    <img src="img/gift.jpg" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div class="goods_pack_slider_arrow right icon_sprite arrow_right"></div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="goods_pack_price_block">
+                                            <span class="goods_pack_price">50</span>
+                                            <span> грн</span>
+                                        </div>
+                                        <button class="button pink goods_pack_select_button">Выбрать</button>
+                                    </div>
+                                </div>
+                                <div class="goods_pack_block_done">
+                                    <div class="good_pack_button_done">
+                                        Упакован
+                                    </div>
+                                    <div class="good_pack_button_to_cancel">
+                                        Отменить упаковку
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="goods_item">
+                        <div class="close_container">
+                            <a href="" class="icon_sprite close"></a>
+                        </div>
+                        <div class="left_block">
+                            <div class="goods_info">
+                                <div class="good_name">
+                                    набор emozzi simply red ( 94 эмоции )
+                                </div>
+                                <div class="one_good_coast">
+                                    <span class="one_good_coast_sum">254</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="goods_quantity_block">
+                                    <a href="">
+                                        <span class="goods_quantity">2</span>
+                                        <span>шт</span>
+                                    </a>
+                                    <div class="goods_quantity_toggler">
+                                        <div class="toggler more_toggler">+</div>
+                                        <div class="toggler less_toggler">-</div>
+                                    </div>
+                                </div>
+                                <div class="goods_total_coast">
+                                    <span class="goods_total_coast_sum">508</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--add or remove class "open"-->
+                            <div class="goods_gifts_block open">
+                                <div class="goods_gifts_button">
+                                    Смотреть подарки
+                                </div>
+                                <div class="goods_gifts_block_closed"></div>
+                                <div class="goods_gifts_block_opened">
+                                    <div class="goods_gifts_list">
+                                        <div class="goods_gifts_item">
+                                            БИЛЕТ НА ДВОИХ В ОДЕССА-КИНО
+                                        </div>
+                                        <div class="goods_gifts_item">
+                                            ПРИГЛАСИТЕЛЬНЫЕ В ФОРСАЖ
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right_block">
+                            <!--classes: "" or "open" or "done"-->
+                            <div class="goods_pack_block open">
+                                <div class="goods_pack_block_closed">
+                                    <div class="good_pack_button_to_open">
+                                        Упаковка
+                                    </div>
+                                </div>
+                                <div class="goods_pack_block_opened">
+                                    <div class="pack_view_block">
+                                        <div class="good_pack_button_to_close">
+                                            Упаковка
+                                        </div>
+                                        <div class="goods_pack_slider_block">
+                                            <div class="goods_pack_slider_arrow left icon_sprite arrow_left"></div>
+                                            <div class="goods_pack_slider_view_container">
+                                                <div class="goods_pack_slider_img_wrap">
+                                                    <img src="img/gift.jpg" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div class="goods_pack_slider_arrow right icon_sprite arrow_right"></div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="goods_pack_price_block">
+                                            <span class="goods_pack_price">50</span>
+                                            <span> грн</span>
+                                        </div>
+                                        <button class="button pink goods_pack_select_button">Выбрать</button>
+                                    </div>
+                                </div>
+                                <div class="goods_pack_block_done">
+                                    <div class="good_pack_button_done">
+                                        Упакован
+                                    </div>
+                                    <div class="good_pack_button_to_cancel">
+                                        Отменить упаковку
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="goods_item">
+                        <div class="close_container">
+                            <a href="" class="icon_sprite close"></a>
+                        </div>
+                        <div class="left_block">
+                            <div class="goods_info">
+                                <div class="good_name">
+                                    набор emozzi simply red ( 94 эмоции )
+                                </div>
+                                <div class="one_good_coast">
+                                    <span class="one_good_coast_sum">129</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="goods_quantity_block">
+                                    <a href="">
+                                        <span class="goods_quantity">2</span>
+                                        <span>шт</span>
+                                    </a>
+                                    <div class="goods_quantity_toggler">
+                                        <div class="toggler more_toggler">+</div>
+                                        <div class="toggler less_toggler">-</div>
+                                    </div>
+                                </div>
+                                <div class="goods_total_coast">
+                                    <span class="goods_total_coast_sum">258</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--add or remove class "open"-->
+                            <div class="goods_gifts_block">
+                                <div class="goods_gifts_button">
+                                    Смотреть подарки
+                                </div>
+                                <div class="goods_gifts_block_closed"></div>
+                                <div class="goods_gifts_block_opened">
+                                    <div class="goods_gifts_list">
+                                        <div class="goods_gifts_item">
+                                            БИЛЕТ НА ДВОИХ В ОДЕССА-КИНО
+                                        </div>
+                                        <div class="goods_gifts_item">
+                                            ПРИГЛАСИТЕЛЬНЫЕ В ФОРСАЖ
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right_block">
+                            <!--classes: "" or "open" or "done"-->
+                            <div class="goods_pack_block done">
+                                <div class="goods_pack_block_closed">
+                                    <div class="good_pack_button_to_open">
+                                        Упаковка
+                                    </div>
+                                </div>
+                                <div class="goods_pack_block_opened">
+                                    <div class="pack_view_block">
+                                        <div class="good_pack_button_to_close">
+                                            Упаковка
+                                        </div>
+                                        <div class="goods_pack_slider_block">
+                                            <div class="goods_pack_slider_arrow left icon_sprite arrow_left"></div>
+                                            <div class="goods_pack_slider_view_container">
+                                                <div class="goods_pack_slider_img_wrap">
+                                                    <img src="img/gift.jpg" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div class="goods_pack_slider_arrow right icon_sprite arrow_right"></div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="goods_pack_price_block">
+                                            <span class="goods_pack_price">50</span>
+                                            <span> грн</span>
+                                        </div>
+                                        <button class="button pink goods_pack_select_button">Выбрать</button>
+                                    </div>
+                                </div>
+                                <div class="goods_pack_block_done">
+                                    <div class="good_pack_button_done">
+                                        Упакован
+                                    </div>
+                                    <div class="good_pack_button_to_cancel">
+                                        Отменить упаковку
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="goods_item">
+                        <div class="close_container">
+                            <a href="" class="icon_sprite close"></a>
+                        </div>
+                        <div class="left_block">
+                            <div class="goods_info">
+                                <div class="good_name">
+                                    набор handmade
+                                </div>
+                                <div class="one_good_coast">
+                                    <span class="one_good_coast_sum">129</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="goods_quantity_block">
+                                    <a href="">
+                                        <span class="goods_quantity">2</span>
+                                        <span>шт</span>
+                                    </a>
+                                    <div class="goods_quantity_toggler">
+                                        <div class="toggler more_toggler">+</div>
+                                        <div class="toggler less_toggler">-</div>
+                                    </div>
+                                </div>
+                                <div class="goods_total_coast">
+                                    <span class="goods_total_coast_sum">258</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--add or remove class "open"-->
+                            <div class="goods_edit_block">
+                                <div class="goods_edit_block_closed">
+                                    <a href="">Редактировать</a>
+                                </div>
+                                <div class="goods_edit_block_opened">
+                                    <div class="goods_edit_block_opened_title">РЕДАКТИРОВАНИЕ</div>
+                                    <div class="goods_edit_list_block">
+                                        <div class="goods_edit_list_item">
+                                            <a class="good_edit_remove icon_sprite remove_small" href=""></a>
+                                            <span class="good_edit_name">Картинг для одного</span>
+                                        </div>
+                                        <div class="goods_edit_list_item">
+                                            <a class="good_edit_remove icon_sprite remove_small" href=""></a>
+                                            <span class="good_edit_name">Ворошиловский стрелок</span>
+                                        </div>
+                                    </div>
+                                    <a href="" class="goods_edit_save">Сохранить</a>
+                                </div>
+                            </div>
+                            <!--add or remove class "open"-->
+                            <div class="goods_gifts_block">
+                                <div class="goods_gifts_button">
+                                    Смотреть подарки
+                                </div>
+                                <div class="goods_gifts_block_closed"></div>
+                                <div class="goods_gifts_block_opened">
+                                    <div class="goods_gifts_list">
+                                        <div class="goods_gifts_item">
+                                            БИЛЕТ НА ДВОИХ В ОДЕССА-КИНО
+                                        </div>
+                                        <div class="goods_gifts_item">
+                                            ПРИГЛАСИТЕЛЬНЫЕ В ФОРСАЖ
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right_block">
+                            <!--classes: "" or "open" or "done"-->
+                            <div class="goods_pack_block">
+                                <div class="goods_pack_block_closed">
+                                    <div class="good_pack_button_to_open">
+                                        Упаковка
+                                    </div>
+                                </div>
+                                <div class="goods_pack_block_opened">
+                                    <div class="pack_view_block">
+                                        <div class="good_pack_button_to_close">
+                                            Упаковка
+                                        </div>
+                                        <div class="goods_pack_slider_block">
+                                            <div class="goods_pack_slider_arrow left icon_sprite arrow_left"></div>
+                                            <div class="goods_pack_slider_view_container">
+                                                <div class="goods_pack_slider_img_wrap">
+                                                    <img src="img/gift.jpg" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div class="goods_pack_slider_arrow right icon_sprite arrow_right"></div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="goods_pack_price_block">
+                                            <span class="goods_pack_price">50</span>
+                                            <span> грн</span>
+                                        </div>
+                                        <button class="button pink goods_pack_select_button">Выбрать</button>
+                                    </div>
+                                </div>
+                                <div class="goods_pack_block_done">
+                                    <div class="good_pack_button_done">
+                                        Упакован
+                                    </div>
+                                    <div class="good_pack_button_to_cancel">
+                                        Отменить упаковку
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="goods_item">
+                        <div class="close_container">
+                            <a href="" class="icon_sprite close"></a>
+                        </div>
+                        <div class="left_block">
+                            <div class="goods_info">
+                                <div class="good_name">
+                                    набор Handmade
+                                </div>
+                                <div class="one_good_coast">
+                                    <span class="one_good_coast_sum">129</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="goods_quantity_block">
+                                    <a href="">
+                                        <span class="goods_quantity">2</span>
+                                        <span>шт</span>
+                                    </a>
+                                    <div class="goods_quantity_toggler">
+                                        <div class="toggler more_toggler">+</div>
+                                        <div class="toggler less_toggler">-</div>
+                                    </div>
+                                </div>
+                                <div class="goods_total_coast">
+                                    <span class="goods_total_coast_sum">258</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--add or remove class "open"-->
+                            <div class="goods_edit_block open">
+                                <div class="goods_edit_block_closed">
+                                    <a href="">Редактировать</a>
+                                </div>
+                                <div class="goods_edit_block_opened">
+                                    <div class="goods_edit_block_opened_title">РЕДАКТИРОВАНИЕ</div>
+                                    <div class="goods_edit_list_block">
+                                        <div class="goods_edit_list_item">
+                                            <a class="good_edit_remove icon_sprite remove_small" href=""></a>
+                                            <span class="good_edit_name">Картинг для одного</span>
+                                        </div>
+                                        <div class="goods_edit_list_item">
+                                            <a class="good_edit_remove icon_sprite remove_small" href=""></a>
+                                            <span class="good_edit_name">Аквапарк DreamTown целый день</span>
+                                        </div>
+                                        <div class="goods_edit_list_item">
+                                            <a class="good_edit_remove icon_sprite remove_small" href=""></a>
+                                            <span class="good_edit_name">Ворошиловский стрелок</span>
+                                        </div>
+                                        <div class="goods_edit_list_item">
+                                            <a class="good_edit_remove icon_sprite remove_small" href=""></a>
+                                            <span class="good_edit_name">Полет на воздушном шаре</span>
+                                        </div>
+                                    </div>
+                                    <a href="" class="goods_edit_save">Сохранить</a>
+                                </div>
+                            </div>
+                            <!--add or remove class "open"-->
+                            <div class="goods_gifts_block">
+                                <div class="goods_gifts_button">
+                                    Смотреть подарки
+                                </div>
+                                <div class="goods_gifts_block_closed"></div>
+                                <div class="goods_gifts_block_opened">
+                                    <div class="goods_gifts_list">
+                                        <div class="goods_gifts_item">
+                                            БИЛЕТ НА ДВОИХ В ОДЕССА-КИНО
+                                        </div>
+                                        <div class="goods_gifts_item">
+                                            ПРИГЛАСИТЕЛЬНЫЕ В ФОРСАЖ
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right_block">
+                            <!--classes: "" or "open" or "done"-->
+                            <div class="goods_pack_block">
+                                <div class="goods_pack_block_closed">
+                                    <div class="good_pack_button_to_open">
+                                        Упаковка
+                                    </div>
+                                </div>
+                                <div class="goods_pack_block_opened">
+                                    <div class="pack_view_block">
+                                        <div class="good_pack_button_to_close">
+                                            Упаковка
+                                        </div>
+                                        <div class="goods_pack_slider_block">
+                                            <div class="goods_pack_slider_arrow left icon_sprite arrow_left"></div>
+                                            <div class="goods_pack_slider_view_container">
+                                                <div class="goods_pack_slider_img_wrap">
+                                                    <img src="img/gift.jpg" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div class="goods_pack_slider_arrow right icon_sprite arrow_right"></div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="goods_pack_price_block">
+                                            <span class="goods_pack_price">50</span>
+                                            <span> грн</span>
+                                        </div>
+                                        <button class="button pink goods_pack_select_button">Выбрать</button>
+                                    </div>
+                                </div>
+                                <div class="goods_pack_block_done">
+                                    <div class="good_pack_button_done">
+                                        Упакован
+                                    </div>
+                                    <div class="good_pack_button_to_cancel">
+                                        Отменить упаковку
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="form_actions">
+                <div class="buttons_container order_submit">
+                    <div class="to_pay_block">
+                        <span>Итого к оплате </span>
+                        <span class="bold sum_to_pay">789</span>
+                        <span class="bold">грн</span>
+                    </div>
+                    <input type="submit" value="Оформить заказ" class="button pink" />
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/select2.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
