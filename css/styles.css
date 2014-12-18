@@ -253,8 +253,14 @@ ul.main_menu a {
     min-width: 18px;
     height: 18px;
     text-align: center;
-    padding: 2px 2px 0 2px;
+    padding: 0 3px;
     display: inline-block;
+    line-height: 19px;
+    font-family: Arial;
+}
+@-moz-document url-prefix()
+{
+    .basket_header_block .basket_header_number{ line-height: 18px;}
 }
 
 .cabinet_header_block {
@@ -375,12 +381,17 @@ ul.steps a {
 
 ul.steps .step_number {
     border: 2px solid #e6e6e6;
-    padding: 0 4px 1px;
     -webkit-border-radius: 11px;
     -moz-border-radius: 11px;
     border-radius: 11px;
-    margin: 0 12px -4px 0;
+    margin: 0 12px 0 0;
     display: inline-block;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 18px;
 }
 
 ul.steps .step_title {
