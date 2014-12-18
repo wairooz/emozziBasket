@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'PFDinTextPro-Light';
     src: url('../fonts/PFDinTextPro-Light.eot');
-    src: local('☺'), url('../fonts/PFDinTextPro-Light.woff') format('woff'),
+    src: url('../fonts/PFDinTextPro-Light.woff') format('woff'),
     url('../fonts/PFDinTextPro-Light.ttf') format('truetype'),
     url('../fonts/PFDinTextPro-Light.svg') format('svg');
     font-weight: normal;
@@ -420,6 +420,10 @@ h1.title {
     padding: 10px 0 10px 106px;
 }
 
+h1.thanks{
+    padding-bottom: 0;
+}
+
 h3.info {
     font-size: 20px;
     text-transform: uppercase;
@@ -427,6 +431,15 @@ h3.info {
     color: #ccc;
     margin: 0;
     padding: 10px 0 10px 106px;
+    line-height: 1.4;
+}
+
+h4.info {
+    font-size: 22px;
+    font-weight: normal;
+    color: #ccc;
+    margin: 0;
+    padding: 0 0 10px 106px;
     line-height: 1.4;
 }
 
@@ -974,3 +987,58 @@ h3.info {
 }
 
 /*end goods_list*/
+
+/*thanks*/
+.order_number_container{
+    padding: 48px 0 32px 106px;
+    font-size: 22px;
+}
+.social_block_container{
+    padding: 10px 0 10px 106px;
+}
+.social_block_container p{
+    color: #ccc;
+    padding: 21px 0;
+    margin: 0;
+    width: 484px;
+}
+.social_block_container .social_block{
+    border: 2px solid #f3f3f3;
+    height: 87px;
+    width: 550px;
+}
+.social_block .social_icon_block{
+    width: 90px;
+    height: 100%;
+    border-right: 2px solid #f3f3f3;
+    float: left;
+}
+.social_block .social_icon{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 28px auto 0 auto;
+    background: url('../img/socials.png') no-repeat 0 0;
+    border: none;
+}
+.social_block .social_icon.facebook{
+    background-position: -2px -2px;
+}
+.social_block .social_icon.vkontakte{
+    background-position: -34px -2px;
+}
+.social_block .social_widget{
+    float: left;
+    width: 366px;
+    height: 100%;
+
+    /*temp*/
+    overflow: hidden;
+    background: url("../img/layks_widget.gif") no-repeat 0 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*end thanks*/
