@@ -125,6 +125,12 @@ ul.hor li {
     height: 26px;
     background-position: -30px -25px;
 }
+.icon_sprite.gift {
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    background-position: -2px -53px;
+}
 
 input[type='text'],
 input[type='number'],
@@ -195,6 +201,24 @@ input[type='password']:focus {
 }
 
 /*header*/
+.header_info{
+    background: #99cc33;
+}
+.header_info .info{
+    width: 980px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    padding: 10px 0 8px;
+    text-align: center;
+}
+.header_info .icon_sprite.gift{
+    margin: 0 10px -1px 0;
+}
+
+
 .primary_nav {
     background-color: #f9f9f9;
 }
@@ -757,8 +781,8 @@ h4.info {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    border-color: #2baae1;
-    color: #2baae1;
+    border-color: #99cc33;
+    color: #99cc33;
     cursor: pointer;
 }
 
@@ -769,11 +793,11 @@ h4.info {
     margin: 21px 0 0 0;
     border-width: 6px 5px 0 5px;
     border-style: solid;
-    border-color: #2baae1 transparent transparent transparent;
+    border-color: #99cc33 transparent transparent transparent;
 }
 
 .goods_gifts_block.open .goods_gifts_button {
-    background-color: #2baae1;
+    background-color: #99cc33;
     color: #fff;
 }
 
