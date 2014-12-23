@@ -131,6 +131,11 @@ ul.hor li {
     height: 16px;
     background-position: -2px -53px;
 }
+.icon_sprite.disabled {
+    opacity: 0;
+    cursor: default;
+}
+
 
 input[type='text'],
 input[type='number'],
@@ -996,6 +1001,10 @@ h4.info {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.goods_pack_slider_img_wrap img {
+    float: left;
 }
 
 .goods_pack_price_block {
